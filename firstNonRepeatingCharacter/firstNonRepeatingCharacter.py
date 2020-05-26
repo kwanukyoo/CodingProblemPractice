@@ -16,7 +16,8 @@ def firstNonRepeatingCharacter(word):
         if dictionary.get(character) == 1:    
             print(character)        
             return character
-                
+    
+    # If not found, return '_'
     print('_')
     return '_'
         

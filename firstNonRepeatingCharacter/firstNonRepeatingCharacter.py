@@ -1,8 +1,9 @@
 # This is first none repeating character problem sovled in python
 # question : find first non repeating character, return '_' if nothing found
 # Ex. abccdddefg return 'a'
-# Finding first non repeating character in a string in O(N) time complexity
-def firstNonRepeatingCharacter(word):    
+
+# O(N) solution
+def first_non_repeating_character(word):    
     dictionary = {}
     # Fill in dictionary charac, numOfCharacter pair O(N)
     for character in word:
@@ -23,9 +24,9 @@ def firstNonRepeatingCharacter(word):
         
 
 # Test        
-firstNonRepeatingCharacter("aabcdd")
-firstNonRepeatingCharacter("aabbcdef")
-firstNonRepeatingCharacter("abccdd")
-firstNonRepeatingCharacter("aabbcc")
+first_non_repeating_character("aabcdd")
+first_non_repeating_character("aabbcdef")
+first_non_repeating_character("abccdd")
+first_non_repeating_character("aabbcc")
 
 
